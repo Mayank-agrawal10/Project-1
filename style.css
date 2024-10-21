@@ -1,0 +1,116 @@
+/* css reset*/
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("img/gym.png.jpg");
+  height: auto;
+}
+
+/* This is for left sides */
+.Left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 28px;
+}
+
+.Left img {
+  width: 100px;
+  filter: invert(100%);
+  padding-left: 30px;
+}
+
+.Left div {
+  text-align: center;
+  line-height: 19px;
+  font-size: 26px;
+  color: white;
+}
+
+/* this is for nav bar */
+.Mid {
+  /* border: 2px solid green; */
+  display: block;
+  width: 36%;
+  margin: 29px auto;
+}
+.navbar #home {
+  text-decoration: underline;
+  color: gray;
+}
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navbar li a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: grey;
+}
+
+/* This is for right side */
+.Right {
+  display: inline-block;
+  /* border: 2px solid yellow; */
+  position: absolute;
+  right: 34px;
+  top: 37px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  margin: 0px 10px;
+  border-radius: 10px;
+  padding: 4px 14px;
+  cursor: pointer;
+  font-size: 20px;
+  border: 2px solid grey;
+}
+.container .btn {
+  display: block;
+  width: 97%;
+}
+
+.btn:hover {
+  background: #585353;
+}
+h1 {
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.container {
+  border: 2px solid white;
+  margin-top: 50px;
+  margin: 1o6px 80px;
+  padding: 40px;
+  width: 42%;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
